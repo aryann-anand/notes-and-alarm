@@ -1,0 +1,63 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.note,
+.reminder {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.note {
+  background-color: #f9f9f9;
+}
+
+.reminder {
+  background-color: #fef3cd;
+  border-color: #fde2a7;
+}
+
+.delete-button {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
